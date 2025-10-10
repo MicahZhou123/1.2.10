@@ -4,7 +4,6 @@ public class MadLib {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Your original template (Must be exactly this)
         String madlib = "strawberry was feeling very banana one day so they grabbed their favorite orange and started berry. Eventually, they ended up in grape!";
 
         System.out.print("Enter name:        (strawberry): ");
@@ -34,11 +33,12 @@ public class MadLib {
         String part1 = madlib.substring(0, strawberryIndex);
         String part2 = madlib.substring(strawberryIndex + "strawberry".length(), bananaIndex);
         String part3 = madlib.substring(bananaIndex + "banana".length(), orangeIndex);
-        //String part4 = madlib.substring(orangeIndex + "orange".length(), berryIndex);
-        //String part5 = madlib.substring(berryIndex + "berry".length(), grapeIndex);
-        //String part6 = madlib.substring(grapeIndex + "grape".length());
+        String part4 = madlib.substring(orangeIndex + "orange".length(), berryIndex);
+        String part5 = madlib.substring(berryIndex + "berry".length(), grapeIndex);
+        String part6 = madlib.substring(grapeIndex + "grape".length());
 
-        //String finalMadLib = part1 + name + part2 + adjective + part3 + noun + part4 + verb + part5 + place + part6;
-        //System.out.println(finalMadLib);
+        String finalMadLib = part1 + name + part2 + adjective + part3 + noun + part4 + verb + part5 + place + part6;
+        System.out.println(finalMadLib);
     }
 }
+
