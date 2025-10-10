@@ -4,9 +4,9 @@ public class MadLib {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        String madlib = "strawberry was feeling very banana one day so they grabbed their favorite orange and started berry. Eventually, they ended up in grape!";
+        String madlib = "straw was feeling very banana one day so they grabbed their favorite orange and started berry. Eventually, they ended up in grape!";
 
-        System.out.print("Enter name:        (strawberry): ");
+        System.out.print("Enter name:        (straw): ");
         String name = input.nextLine();
 
         System.out.print("Enter an adjective:    (banana): ");
@@ -23,15 +23,15 @@ public class MadLib {
 
         input.close(); 
 
-        int strawberryIndex = madlib.indexOf("strawberry");
+        int strawIndex = madlib.indexOf("straw");
         int bananaIndex = madlib.indexOf("banana");
         int orangeIndex = madlib.indexOf("orange");
         int berryIndex = madlib.indexOf("berry");
         int grapeIndex = madlib.indexOf("grape");
 
 
-        String part1 = madlib.substring(0, strawberryIndex);
-        String part2 = madlib.substring(strawberryIndex + "strawberry".length(), bananaIndex);
+        String part1 = madlib.substring(0, strawIndex);
+        String part2 = madlib.substring(strawIndex + "strawberry".length(), bananaIndex);
         String part3 = madlib.substring(bananaIndex + "banana".length(), orangeIndex);
         String part4 = madlib.substring(orangeIndex + "orange".length(), berryIndex);
         String part5 = madlib.substring(berryIndex + "berry".length(), grapeIndex);
@@ -41,4 +41,5 @@ public class MadLib {
         System.out.println(finalMadLib);
     }
 }
+
 
