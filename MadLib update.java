@@ -31,7 +31,7 @@ public class MadLib {
 
 
         String part1 = madlib.substring(0, strawIndex);
-        String part2 = madlib.substring(strawIndex + "strawberry".length(), bananaIndex);
+        String part2 = madlib.substring(strawIndex + "straw".length(), bananaIndex);
         String part3 = madlib.substring(bananaIndex + "banana".length(), orangeIndex);
         String part4 = madlib.substring(orangeIndex + "orange".length(), berryIndex);
         String part5 = madlib.substring(berryIndex + "berry".length(), grapeIndex);
@@ -41,5 +41,6 @@ public class MadLib {
         System.out.println(finalMadLib);
     }
 }
+
 
 
