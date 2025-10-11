@@ -21,8 +21,6 @@ public class MadLib {
         System.out.print("Enter a place (say a first though):     (grape): ");
         String place = input.nextLine();
 
-        input.close(); 
-
         int strawIndex = madlib.indexOf("<straw>");
         int bananaIndex = madlib.indexOf("<banana>");
         int orangeIndex = madlib.indexOf("<orange>");
@@ -41,6 +39,7 @@ public class MadLib {
         System.out.println(finalMadLib);
     }
 }
+
 
 
 
