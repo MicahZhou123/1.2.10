@@ -18,11 +18,11 @@ A place
 
 EXAMPLE: 
 
-Enter name: Micah
-Enter an adjective: sleepy
-Enter a noun: skateboard
-Enter a verb ending in -ing: cruising
-Enter a place: Shanghai
+- Enter name: Micah
+- Enter an adjective: sleepy
+- Enter a noun: skateboard
+- Enter a verb ending in -ing: cruising
+- Enter a place: Shanghai
 
 Micah was feeling very adventurous one day so they grabbed their favorite skateboard and started cruising. Eventually, they ended up in Shanghai!
 
